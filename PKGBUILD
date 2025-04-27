@@ -29,7 +29,7 @@ Exec=MoeKey
 Icon=io.github.Predidit.MoeKey
 Terminal=false
 Type=Application
-Categories=AudioVideo;Audio;Video;
+Categories=Network;InstantMessaging;
 EOF
 
     install -Dm644 "${srcdir}/icon.png" "${pkgdir}/usr/share/icons/hicolor/128x128/apps/io.github.Predidit.MoeKey.png"

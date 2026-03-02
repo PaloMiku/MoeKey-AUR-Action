@@ -10,7 +10,7 @@ pkgver_url=$(printf '%s' "${pkgver}" | sed 's/+/%2B/g')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/MoeKeyDev/MoeKey/releases/download/${pkgver_url}/MoeKey-${pkgver}-linux-x86_64-release.tar.gz"
         "icon.png")
 sha256sums=('SKIP' 'SKIP')
-depends=('libayatana-appindicator' 'xdg-user-dirs' 'webkit2gtk-4.1')
+depends=('libayatana-appindicator' 'xdg-user-dirs' 'webkit2gtk-4.1' 'mpv')
 
 package() {
     install -d "${pkgdir}/opt/MoeKey" "${pkgdir}/usr/bin"
